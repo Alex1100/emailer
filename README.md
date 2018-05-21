@@ -1,6 +1,6 @@
 ## Node/React/Redux Emailer
 
-<a href="https://redux-emailer.herokuapp.com/">CHECK OUT THE PROJECT ON HEROKU</a>
+<a href="https://thawing-ravine-84995.herokuapp.com/">CHECK OUT THE PROJECT ON HEROKU</a>
 
 EMAIL: alex1100.software@gmail.com
 
