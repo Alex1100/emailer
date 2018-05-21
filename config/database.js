@@ -12,7 +12,7 @@ if(process.env.DATABASE_URL){
 } else {
   db = new Sequelize('kohactive_coding_challenge_node', 'root', '', {
     host: 'localhost',
-    dialect: 'mysql'
+    dialect: 'postgres'
   });
   console.log('connected to db locally');
 }
