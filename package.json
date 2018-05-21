@@ -1,0 +1,68 @@
+{
+  "name": "emailer",
+  "version": "1.0.0",
+  "description": "Node.js/React/Redux Emailer",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "engines": {
+    "node": "8.1.4"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "compile": "webpack -w",
+    "test": "mocha"
+  },
+  "author": "Alex1100 <alex100.software@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-react-transform": "^2.0.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.2",
+    "btoa": "^1.1.2",
+    "chai": "^4.1.1",
+    "chai-http": "^3.0.0",
+    "debug": "^3.0.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.4",
+    "mailgun-js": "^0.13.1",
+    "morgan": "^1.8.2",
+    "mysql": "^2.14.1",
+    "path": "^0.12.7",
+    "pg": "^7.2.0",
+    "react": "^15.6.1",
+    "react-bootstrap": "^0.31.2",
+    "react-dom": "^15.6.1",
+    "react-materialize": "^1.0.10",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.1.2",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^4.9.1",
+    "redux-thunk": "^2.2.0",
+    "sequelize": "^4.7.2",
+    "style-loader": "^0.18.2",
+    "sweetalert-react": "^0.4.10",
+    "webpack": "^3.3.0",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-hot-middleware": "^2.18.2"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "ip": "^1.1.5",
+    "mocha": "^3.5.0",
+    "react-hot-loader": "^3.0.0-beta.7",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-dev-server": "^2.5.1",
+    "webpack-hot-middleware": "^2.18.2"
+  }
+}
