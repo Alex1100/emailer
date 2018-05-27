@@ -1,4 +1,5 @@
 ## Node/React/Redux Emailer
+<img src="https://circleci.com/gh/Alex1100/emailer.png?style=shield&circle-token=bb3fd96873c7d0cd77012c94776fb58d124205f5" />
 
 <a href="https://thawing-ravine-84995.herokuapp.com/">CHECK OUT THE PROJECT ON HEROKU</a>
 
