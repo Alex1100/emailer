@@ -1,5 +1,5 @@
 let Sequelize = require('sequelize');
-let bcrypt = require('bcrypt');
+let bcrypt = require('bcrypt') || require('bcrypt-nodejs');
 let crypto = require('crypto');
 const saltRounds = 10;
 let User = require('../models/user').User;
