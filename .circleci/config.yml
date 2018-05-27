@@ -19,6 +19,3 @@ jobs:
       - run:
           name: Run Tests
           command: npm test
-          environment:
-            DATABASE_URL: $DATABASE_URL
-            DATABASE_PASSWORD: $DATABASE_PASSWORD
